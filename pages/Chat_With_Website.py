@@ -85,6 +85,7 @@ def main():
 
     # Create vector store and retriever only when a URL is entered
     if url:
+        st.session_state.vectorstore = None
         create_vectorstore(url)
         if st.session_state.get("vectorstore") is not None:
             retriever = get_retriever(st.session_state.vectorstore)
