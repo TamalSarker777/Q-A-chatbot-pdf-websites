@@ -1,7 +1,5 @@
 langchain
 streamlit
 HuggingFaceEndpoint
-langchain_community
 FAISS
-WebBaseLoader
-langchain.document_loaders
+
