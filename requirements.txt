@@ -1,5 +1,4 @@
 langchain
 streamlit
-HuggingFaceEndpoint
-FAISS
+
 
