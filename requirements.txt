@@ -1,7 +1,7 @@
 langchain
 streamlit
-PyPDFLoader
 HuggingFaceEndpoint
 langchain_community
 FAISS
 WebBaseLoader
+langchain.document_loaders
